@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Wishes</title>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    #birthday-box {
+      background-color: #ffcccb;
+      border-radius: 15px;
+      padding: 20px;
+      margin: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      color: #ff4500;
+      font-size: 36px;
+      text-transform: uppercase;
+      animation: colorChange 1s infinite alternate;
+
+    }
+
+    p {
+      font-size: 60px;
+      color: #000;
+      animation: rotateText 5s;
+    }
+
+    @keyframes colorChange {
+      0% {
+        color: #ff4500;
+      }
+      50% {
+        color: #ff1493;
+      }
+      100% {
+        color: #ff4500;
+      }
+	  150%
+	  {
+		color:#ff3411;
+	  }
+    }
+
+    @keyframes rotateText {
+      0% {
+        transform: rotate(270deg);
+      }
+      100% {
+        transform: rotate(0deg);
+      }
+    }
+	p{
+		color:#008744;
+	}
+	#vr
+	{
+		align:center;
+		border-bottom-color:green;
+		background-color:aqua;
+		border-radius:12px;
+		width:150px;
+		height:60px;
+		font-size:20px;
+		
+	}
+	q{
+		color:red;
+	}
+	a{
+	color:orange;
+	}
+  </style>
+</head>
+<body>
+  <div id="birthday-box">
+    <h1>🎉 Hello Everyone! 🎂</h1>
+	
+    <p>welcome</p>
+	&#129303
+   
+  </div>
+  <input type="text" placeholder="enter you name" id="pv" />
+	<input id="vr" type="button" value="click me" onclick="fun()" />
+  <h4><i>click to listen your <q>Adventure</q> </i></h4>
+
+  <script>
+    function fun()
+	{
+		var a=document.getElementById("pv").value;
+		document.write("<h2 style='color:#FF00FF','align:center'>నీ బొం ద ఇంకేం కావాలి నీకు బటన్ నొక్కుతున్నావ్ .....!  🤩</2><br/><br/><br/>");
+		document.write("<p style='color:green'>Any Way Happy Birthday</p> <h4 style='color:red','size:30px'><i>"+a+"</i>🐖🍭</h4>");
+	}
+  </script>
+</body>
+</html>
